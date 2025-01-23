@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supervised Learning</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+     <style>
+        /* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:black;
+
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+main p{
+    color:pink;
+
+}
+main h2{
+    color:burlywood
+}
+main ul li {
+    color:pink;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+main ul li a{
+    color:pink;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+.image{
+    height:auto;
+    width:500px;
+    border-radius:20px;
+    border:10px solid plum
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+     </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Supervised Learning</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <!-- <li><a href="supervised-learning.html">Supervised Learning</a></li> -->
+                    <li><a href="unsupervised-learning.html">Unsupervised Learning</a></li>
+                    <li><a href="deep-learning.html">Deep Learning</a></li>
+                    <!-- <li><a href="neural-networks.html">Neural Networks</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="supervised-intro">
+            <div class="container">
+                <h2>What is Supervised Learning?</h2>
+                <p>Supervised learning is a type of machine learning where the model is trained using labeled data, meaning the input data is paired with the correct output.</p>
+                <img src="Supervised-learning.png" class="image">
+            </div>
+        </section>
+
+        <section id="types">
+            <div class="container">
+                <h2>Types of Supervised Learning</h2>
+                <ul>
+                    <li><strong>Classification:</strong> The model predicts a discrete label. Example: Email spam detection.</li>
+                    <li><strong>Regression:</strong> The model predicts a continuous value. Example: House price prediction.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="applications">
+            <div class="container">
+                <h2>Applications of Supervised Learning</h2>
+                <p>Supervised learning is used in a wide range of applications such as:</p>
+                <ul>
+                    <li>Speech recognition</li>
+                    <li>Image classification</li>
+                    <li>Medical diagnostics</li>
+                    <li>Financial forecasting</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Machine Learning Guide. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
